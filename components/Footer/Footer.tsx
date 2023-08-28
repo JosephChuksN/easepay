@@ -18,7 +18,7 @@ const Footer:React.FC = () => {
         <Subcribe />
       </div>
 
-      <div className="flex justify-between mx-20 border-t-4 border-white py-5">
+      <div className="flex justify-between w-full mx-3 lg:flex-row flex-col lg:mx-20 border-t-4 border-white py-5">
         <div className="flex gap-5 items-center">
           <p>&copy; 2023 Relume. All rights reserved.</p>
           <p>Privacy Policy</p>

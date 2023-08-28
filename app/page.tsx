@@ -13,7 +13,7 @@ const Home:React.FC = () => {
   const [email, setEmail] = useState<string>("");
   return (
     <>
-      <div className='flex mx-auto w-full lGw-2/4 flex-col gap-5 lg:pt-20  text-center justify-center'>
+      <div className='flex mx-auto w-full lg:w-2/4 flex-col gap-5 lg:pt-20  text-center justify-center'>
         <h1 className='lg:text-7xl text-3xl text-white'>One Payment at the speed of light</h1>
         <p>Unlock Groundbreaking New Payment Experiences</p>
         <div className='flex items-center gap-5 w-full justify-center'>
