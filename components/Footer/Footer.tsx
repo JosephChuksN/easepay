@@ -10,7 +10,7 @@ import {FaFacebook, FaInstagram, FaLinkedin, FaYoutube} from 'react-icons/fa'
 const Footer:React.FC = () => {
   return (
     <div className="bg-[#04010E]">
-      <div className="flex lg:flex-row flex-col px-20 w-full items-start justify-between lg:mt-20 lg:pb-28">
+      <div className="flex  px-20 w-full items-start justify-between lg:mt-20 pb-28">
         <Image className="mr-5" src={Logo} width={70} height={70} alt="logo" />
         <Zenith />
         <Company />
@@ -18,7 +18,7 @@ const Footer:React.FC = () => {
         <Subcribe />
       </div>
 
-      <div className="flex justify-between w-full mx-3 lg:flex-row flex-col lg:mx-20 border-t-4 border-white py-5">
+      <div className="flex justify-between mx-20 border-t-4 border-white py-5">
         <div className="flex gap-5 items-center">
           <p>&copy; 2023 Relume. All rights reserved.</p>
           <p>Privacy Policy</p>
