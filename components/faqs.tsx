@@ -3,7 +3,7 @@ import { BiPlus } from "react-icons/bi";
 
 const Faqs:React.FC = () => {
   return (
-    <div className="flex flex-col lg:px-20 gap-5 pt-20 lg:pb-10">
+    <div className="flex flex-col px-3 lg:px-20 gap-5 pt-20 lg:pb-10">
       <h1 className="text-white text-4xl">FAQS</h1>
       <p className="text-white text-base w-full lg:w-[55%]">
         Are you looking for a reliable payment processor to help you expand your
@@ -27,8 +27,8 @@ const Faqs:React.FC = () => {
         </span>
       </div>
       <div className="flex gap-5 flex-col text-white w-full lg:w-2/5 mt-16">
-        <h1 className="text-4xl">Still have a question?</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h1 className="lg:text-4xl text-2xl">Still have a question?</h1>
+        <p className='text-sm lg:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <button className="px-1 py-2 border border-white w-32 ">
           Contact Us
         </button>

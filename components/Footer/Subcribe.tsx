@@ -14,9 +14,9 @@ const Subcribe:FC = () => {
         <p className="text-sm">
           Join our newsletter to stay up to date on features and releases.
         </p>
-        <div className="flex gap-3 py-5">
+        <div className="flex gap-3 py-5 flex-col lg:flex-row items-center">
           <input
-            className="px-1 py-4 w-[65%] text-black"
+            className="px-1 py-2 lg:py-4 w-4/5 lg:w-[65%] text-black"
             type="email"
             value={email}
             name="email"
