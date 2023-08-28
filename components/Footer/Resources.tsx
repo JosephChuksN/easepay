@@ -9,7 +9,7 @@ const Resources:FC = () => {
   ];
 
   return (
-    <div className="w-[20%] mx-auto flex flex-col gap-5">
+    <div className=" w-full lg:w-[20%] mx-auto flex flex-col gap-5">
       <p className="text-2xl">Resource</p>
       <div className="flex flex-col items-center w-full gap-3">
         {details.map((item) => (

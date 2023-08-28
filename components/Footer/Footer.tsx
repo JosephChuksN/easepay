@@ -10,7 +10,7 @@ import {FaFacebook, FaInstagram, FaLinkedin, FaYoutube} from 'react-icons/fa'
 const Footer:React.FC = () => {
   return (
     <div className="bg-[#04010E]">
-      <div className="flex  px-20 w-full items-start justify-between lg:mt-20 lg:pb-28">
+      <div className="flex lg:flex-row flex-col px-20 w-full items-start justify-between lg:mt-20 lg:pb-28">
         <Image className="mr-5" src={Logo} width={70} height={70} alt="logo" />
         <Zenith />
         <Company />
